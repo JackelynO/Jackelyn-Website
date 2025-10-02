@@ -1,0 +1,69 @@
+header {
+    padding: 35px;
+    font-size: xx-large;
+    background-color: rgb(142, 71, 153);
+    position: sticky; top: 0px;
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+header nav a {
+    color: aliceblue;
+}
+body {
+background-color: rgb(210, 225, 245);
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+} 
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+    height: 400px;
+
+}
+.navigationboxes {
+    background-color: rgb(142, 71, 153);
+    display:flex;
+    gap: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
+    text-align:center;
+    font-size: large;
+}
+.box1 {
+    background-color: rgb(160, 165, 227);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+}
+.box2 {
+    background-color:rgb(160, 165, 227);;
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+}
+.box3 {
+    background-color:rgb(160, 165, 227);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(142, 71, 153);
+    text-align: center;
+    padding: 30px;
+    bottom: 0px;
+}
+
+@media (max-width: 600px) {
+    .navigationboxes {flex-direction: column;}
+}
+@media (max-width: 600px) {
+    header {flex-direction: column;}
+}
