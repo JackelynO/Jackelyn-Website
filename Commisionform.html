@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Commision Form </title>
-    <link rel="stylesheet" href="styles.css">
-
+    <title>Commission Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylec.css" />
+    <link rel="icon" type="image" href="assets/favicon.png" />
   </head>
   <body>
-     <header>
-      <div> navigation tool bar</div>
+    <header>
+      <div class="spiritname">Spirit!</div>
       <nav>
-        <a href="./index.html"> Home</a>
-        <a href="./aboutme.html"> About</a>
-        <a href="search"> Search</a>
+        <a href="./index.html">Home</a>
+        <a href="./aboutme.html">About</a>
+        <a href="Commisionform.html"> Commisions!</a>
       </nav>
     </header>
- <div>
-    <form action="submit" method="post">
-         <link ref="Stylesheet" href="style.css">
-         <label for="FirstName">First Name:</label>
-         <input type="text" name="First Name">
-          <div><label for="Lastname">Last Name:</label>
-                 <input type="text" name="Last name"></div>
-                <label for="Email">Email:</label>
-                 <input type="Email"name="Email"label>
-            <div><label for="checkbox">Do you want to recieve notifcations on future posts?</label>
-                 <input type="checkbox"name=checkbox></div>
-             <div><p>All finished? Press the Submit Button below.</p></div>
-         <div><button type="submit">Submit</button></div>
- </div>
+    <main>
+      <section class="submitsec">
+        <form action="submit" method="post"></form>
+        <div><lable for="FirstName">First Name</lable></div>
+        <input class="firstname" type="text" name="FirstName" />
+        <div><label for="LastName">Last Name</label></div>
+
+        <input class="lastname" type="text" name="LastName" />
+        <div><label for="Email">Email</label></div>
+        <input class="email" type="Email" name="Email" />
+        <div>
+          <label class="detailp" for="Details"
+            >What would you like me to commission for you? Give as many details
+            as you'd like!
+          </label>
+        </div>
+        <input class="detailt" type="text" name="Details" />
+        <div><label for="checkbox"></label></div>
+        <p>
+          Check the box if you would like to recive notifications for future
+          posts!
+        </p>
+        <input class="check" type="checkbox" name="checkbox" />
+        <p>All finished? Pressed the Submit Button below!</p>
+        <button type="submit">Submit</button>
+      </section>
+    </main>
+  </body>
+  <footer>© Jackelyn Ochoa 2025</footer>
+</html>

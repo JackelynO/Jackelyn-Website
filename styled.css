@@ -1,0 +1,53 @@
+header {
+  padding: 35px;
+  font-size: xx-large;
+  background-color: rgb(142, 71, 153);
+  position: sticky;
+  top: 0px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+header nav a {
+  color: aliceblue;
+}
+body {
+  background-color: rgb(210, 225, 245);
+}
+img {
+  width: 100%;
+}
+.catpicture {
+  padding-top: 3rem;
+}
+footer {
+  background-color: rgb(142, 71, 153);
+  color: aliceblue;
+  text-align: center;
+}
+@media (max-width: 515px) {
+  .spiritname {
+    display: none;
+  }
+  header {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  p {
+    font-size: x-large;
+  }
+  img {
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 900px) {
+  img {
+    padding-bottom: 3rem;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+  }
+}
