@@ -1,60 +1,9 @@
-header {
-  padding: 35px;
-  font-size: xx-large;
-  background-color: rgb(142, 71, 153);
-  position: sticky;
-  top: 0px;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-}
-header nav a {
-  color: aliceblue;
-}
-.spiritbanner {
-  width: 100%;
-}
-body {
-  background-color: rgb(210, 225, 245);
-  margin: auto;
-}
-p {
-  padding: 1rem;
-  font-size: xx-large;
-}
-.navigationboxes {
-  background-color: rgb(210, 225, 245);
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-  text-align: center;
-  font-size: large;
-}
-.box1 {
-  background-color: rgb(160, 165, 227);
-  padding: 50px;
-  flex: 1 1 20%;
+.spiritname {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   cursor: pointer;
-}
-
-.box2 {
-  background-color: rgb(160, 165, 227);
-  padding: 50px;
-  flex: 1 1 20%;
-  cursor: pointer;
-}
-.box3 {
-  background-color: rgb(160, 165, 227);
-  padding: 50px;
-  flex: 1 1 20%;
-  cursor: pointer;
-}
-footer {
-  background-color: rgb(142, 71, 153);
-  text-align: center;
-  padding: 30px;
-  bottom: 0px;
 }
 @media (max-width: 400px) {
   .spiritbanner {
@@ -66,7 +15,6 @@ footer {
     padding-bottom: 1rem;
   }
   .navigationboxes {
-    background-color: rgb(210, 225, 245);
     padding: none;
     gap: none;
   }
@@ -87,9 +35,6 @@ footer {
   }
 }
 @media (min-width: 400x) {
-  .navigationboxes {
-    background-color: rgb(210, 225, 245);
-  }
   .spiritlogoone {
     display: none;
   }
@@ -101,5 +46,144 @@ footer {
   p {
     font-size: x-large;
     text-align: center;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  header {
+    padding: 35px;
+    font-size: xx-large;
+    background-color: rgb(152, 62, 166);
+    position: sticky;
+    top: 0px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .spiritname {
+    color: aliceblue;
+  }
+  header nav a {
+    color: aliceblue;
+  }
+  .spiritbanner {
+    width: 100%;
+  }
+
+  body {
+    background-color: rgb(76, 48, 90);
+    margin: auto;
+    color: aliceblue;
+  }
+
+  p {
+    padding: 1rem;
+    font-size: xx-large;
+    background-color: rgb(76, 48, 90);
+    color: aliceblue;
+  }
+  main {
+    background-color: rgb(76, 48, 90);
+  }
+
+  .navigationboxes {
+    background-color: rgb(76, 48, 90);
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+  }
+  .box1 {
+    background-color: rgb(115, 141, 198);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+    color: aliceblue;
+  }
+
+  .box2 {
+    background-color: rgb(115, 141, 198);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .box3 {
+    background-color: rgb(115, 141, 198);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  footer {
+    background-color: rgb(76, 48, 90);
+    text-align: center;
+    padding: 30px;
+    bottom: 0px;
+    color: aliceblue;
+  }
+}
+@media (prefers-color-scheme: light) {
+  header {
+    padding: 35px;
+    font-size: xx-large;
+    background-color: rgb(142, 71, 153);
+    position: sticky;
+    top: 0px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  header nav a {
+    color: aliceblue;
+  }
+  .spiritname {
+    color: aliceblue;
+  }
+  .spiritbanner {
+    width: 100%;
+  }
+  body {
+    background-color: rgb(210, 225, 245);
+    margin: auto;
+  }
+  p {
+    padding: 1rem;
+    font-size: xx-large;
+  }
+  .navigationboxes {
+    background-color: rgb(210, 225, 245);
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+  }
+  .box1 {
+    background-color: rgb(160, 165, 227);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+  }
+
+  .box2 {
+    background-color: rgb(160, 165, 227);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+  }
+  .box3 {
+    background-color: rgb(160, 165, 227);
+    padding: 50px;
+    flex: 1 1 20%;
+    cursor: pointer;
+  }
+  footer {
+    background-color: rgb(142, 71, 153);
+    text-align: center;
+    padding: 30px;
+    bottom: 0px;
   }
 }

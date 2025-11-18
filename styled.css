@@ -1,19 +1,9 @@
-header {
-  padding: 35px;
-  font-size: xx-large;
-  background-color: rgb(142, 71, 153);
-  position: sticky;
-  top: 0px;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-}
-header nav a {
-  color: aliceblue;
-}
-body {
-  background-color: rgb(210, 225, 245);
+.spiritname {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  cursor: pointer;
 }
 img {
   width: 100%;
@@ -21,11 +11,7 @@ img {
 .catpicture {
   padding-top: 3rem;
 }
-footer {
-  background-color: rgb(142, 71, 153);
-  color: aliceblue;
-  text-align: center;
-}
+
 @media (max-width: 515px) {
   .spiritname {
     display: none;
@@ -49,5 +35,104 @@ footer {
     display: flex;
     flex-direction: row;
     justify-self: center;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  header {
+    padding: 35px;
+    font-size: xx-large;
+    background-color: rgb(152, 62, 166);
+    position: sticky;
+    top: 0px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .spiritname {
+    color: aliceblue;
+  }
+  header nav a {
+    color: aliceblue;
+  }
+  .spiritbanner {
+    width: 100%;
+  }
+
+  body {
+    background-color: rgb(76, 48, 90);
+    margin: auto;
+    color: aliceblue;
+  }
+
+  p {
+    padding: 1rem;
+    font-size: xx-large;
+    background-color: rgb(76, 48, 90);
+    color: aliceblue;
+  }
+  main {
+    background-color: rgb(76, 48, 90);
+  }
+
+  .navigationboxes {
+    background-color: rgb(76, 48, 90);
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+  }
+  a {
+    color: aliceblue;
+  }
+  footer {
+    background-color: rgb(76, 48, 90);
+    text-align: center;
+    padding: 30px;
+    bottom: 0px;
+    color: aliceblue;
+  }
+}
+@media (prefers-color-scheme: light) {
+  header {
+    padding: 35px;
+    font-size: xx-large;
+    background-color: rgb(142, 71, 153);
+    position: sticky;
+    top: 0px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .spiritname {
+    color: aliceblue;
+  }
+  header nav a {
+    color: aliceblue;
+  }
+  .spiritbanner {
+    width: 100%;
+  }
+  body {
+    background-color: rgb(210, 225, 245);
+    margin: auto;
+  }
+  p {
+    padding: 1rem;
+    font-size: xx-large;
+    color: rgb(58, 0, 96);
+  }
+  a {
+    color: rgb(58, 0, 96);
+  }
+
+  footer {
+    background-color: rgb(142, 71, 153);
+    text-align: center;
+    padding: 30px;
+    bottom: 0px;
+    color: aliceblue;
   }
 }
