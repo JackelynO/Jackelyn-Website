@@ -16,13 +16,21 @@ p {
   text-align: center;
   font-size: larger;
 }
-.detailp {
-  font-size: x-large;
+main {
+  padding-top: 2rem;
 }
+.detailp {
+  font-size: xx-large;
+}
+div {
+  padding: 2rem;
+}
+
 .detailt {
   width: 70%;
   height: auto;
 }
+
 .firstname {
   width: 70%;
   height: auto;

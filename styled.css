@@ -8,6 +8,10 @@
 img {
   width: 100%;
 }
+.paragraph {
+  padding: 3rem;
+  text-align: center;
+}
 .catpicture {
   padding-top: 3rem;
 }
