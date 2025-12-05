@@ -14,36 +14,52 @@
   .spiritname {
     display: none;
   }
+  .spiritbanner {
+    display: none;
+  }
   .Pictures {
     padding: 1rem;
   }
+  img {
+    padding-bottom: 2rem;
+  }
   header {
     text-align: center;
+  }
+  p {
+    padding: 1rem;
   }
 }
 @media (max-width: 900px) {
   p {
     font-size: x-large;
+    padding: 1rem;
   }
-  .Pictures {
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    gap: 3rem;
+  img {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
   }
 }
 @media (min-width: 900px) {
-  .Pictures {
+  img {
+    height: 550px;
+    width: auto;
+    padding: 1rem;
+  }
+  main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 6rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 1fr);
+    gap: 1rem;
     padding: 2rem;
   }
-  img {
-    height: auto;
-    width: 400px;
+  .Info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding-left: 3rem;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -64,15 +80,12 @@
   header nav a {
     color: aliceblue;
   }
-
   body {
     background-color: rgb(76, 48, 90);
     margin: auto;
     color: aliceblue;
   }
-
   p {
-    padding: 1rem;
     font-size: xx-large;
     background-color: rgb(76, 48, 90);
     color: aliceblue;
@@ -109,7 +122,6 @@
   header nav a {
     color: aliceblue;
   }
-
   body {
     background-color: rgb(210, 225, 245);
     margin: auto;
